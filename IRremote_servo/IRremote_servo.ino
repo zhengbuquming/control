@@ -1,8 +1,8 @@
 #include <IRremote.h>
 #include <Servo.h>
 
-#define IR_PIN 2 // 红外接收器连接到Arduino的引脚
-#define SERVO_PIN 1 // 舵机连接到Arduino的引脚
+#define IR_PIN 10 // 红外接收器连接到Arduino的引脚
+#define SERVO_PIN 9 // 舵机连接到Arduino的引脚
 
 #define SERVO_MAX_ANGLE 180 // 舵机最大角度
 #define SERVO_MIN_ANGLE 0 // 舵机最小角度
